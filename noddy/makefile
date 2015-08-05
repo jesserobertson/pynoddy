@@ -472,4 +472,4 @@ legend.o: noddy.h
 #        Application link line
 #
 noddy.exe: $(OBJECTFILES) 
-	$(CC) $(OBJECTFILES)  -o $@
+	$(CC) -lm $(OBJECTFILES)  -o $@
